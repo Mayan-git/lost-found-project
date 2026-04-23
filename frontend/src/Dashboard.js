@@ -11,7 +11,7 @@ export default function Dashboard() {
     location: "",
   });
 
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://lost-found-project-tq4w.onrender.com";
   const token = localStorage.getItem("token");
 
   const fetchItems = async () => {
